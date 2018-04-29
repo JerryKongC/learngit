@@ -25,4 +25,6 @@ Git(window) 学习内容 ：
 
 	要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 	
-7.	理解git 工作区、暂存区测试
+7.	工作区 ——add——> 版本库(stage ——commit——>master)
+
+8. 	git管理的是修改而不是文件
