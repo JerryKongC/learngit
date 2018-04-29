@@ -49,4 +49,6 @@ Git(window) 学习内容 ：
 					创建+切换分支：git checkout -b <name>
 					合并某分支到当前分支：git merge <name>
 					删除分支：git branch -d <name>
-14解决冲突.		测试			
+					
+14解决冲突.		当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+				用git log --graph命令可以看到分支合并图。		
