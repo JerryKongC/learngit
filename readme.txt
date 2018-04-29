@@ -65,3 +65,12 @@ Git(window) 学习内容 ：
 				dev分支是开发分支，团队所有成员都需要在上面工作，所以也需要与远程同步;
 				错误分支只用于在本地修复错误，就没必要推到远程了，除非老板要看看你每周到底修复了几个错误;
 				设有分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发。
+				
+19创建标签		命令git tag <name>用于新建一个标签，默认为HEAD，也可以指定一个commit id;
+				git tag -a <tagname> -m "blablabla..."可以指定标签信息;
+				git tag -s <tagname> -m "blablabla..."可以用PGP签名标签;
+				
+20操作标签		命令git push origin <tagname>可以推送一个本地标签；
+				命令git push origin --tags可以推送全部未推送过的本地标签；
+				命令git tag -d <tagname>可以删除一个本地标签；
+				命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
